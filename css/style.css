@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.container-main {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #fff;
+}   
+
+.menu {
+    padding: 10px;
+    background: linear-gradient(#ffb001, #f9611f);
+    cursor: default;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu h1 {
+    color: #ffffff;
+    font-size: 35px;
+    transition: .5s;
+}
+
+.menu h1:hover {
+    font-size: 40px;
+}
+
+.br {
+    transition: .5s ;
+}
+
+.br:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.search-box {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.search-txt {
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.search-btn {
+    cursor: pointer;
+}
+
+
+.conteudo {
+    border: 1px solid #ad8355;
+    padding: 40px 0px 0px 0px;
+    margin-top: 8px;
+    border-radius: 40px;
+    cursor: default;
+}
+
+
+.inicio {
+    margin-top: 8px;
+    border-radius: 40px;
+    padding: 0px;
+    background: linear-gradient(#ffb001, #f9611f);
+    cursor: default;
+}
+
+.inicio p {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    color: #835421;
+    text-align: center;
+}
+
+.inline p {
+    display: inline;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inline img {
+    width: 40px;
+}
+
+.inline {
+    align-items: center;
+    margin-left: 90px;
+}
+
+.brasil {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem {
+    align-items: center;
+    width: 400px;
+    transition: .5s;
+}
+
+.font-diferent {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.font p {
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: 90px;
+}
+
+.description {
+    border: 1px solid #ad8355;
+    margin-top: 20px;
+    padding: 20px 10px 0px 10px;
+    border-radius: 32px;
+}
+
+.description p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.p1 {
+    line-height: 25px;
+}
+
+.p2 {
+    line-height: 25px;
+}
+
+.rodape {
+    margin-top: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    background: linear-gradient(#ffb001, #f9611f);
+    cursor: default;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+.rodape h2 {
+    color: #ad8355;
+}
